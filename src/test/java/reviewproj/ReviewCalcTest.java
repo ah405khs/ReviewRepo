@@ -12,5 +12,10 @@ public class ReviewCalcTest {
 		r.add(10,  20);
 		assertEquals(30, r.getResult());	
 	}
-
+	@Test
+	public void testMinus(){
+		CalcReview r = new CalcReview();
+		r.minus(50,20);
+		assertEquals(30, r.getResult());
+	}
 }
