@@ -14,6 +14,6 @@ public class CalcReview {
 	}
 	
 	public void mul(int x, int y){
-		result=x*y*1;
+		result=x*y*1; //곱하기 하는 함수입니다.
 	}
 }
